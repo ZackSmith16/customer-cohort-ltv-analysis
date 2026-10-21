@@ -89,6 +89,7 @@ customer-cohort-ltv-analysis/
 ```bash
    git clone https://github.com/ZackSmith16/customer-cohort-ltv-analysis.git
    cd customer-cohort-ltv-analysis
+   mkdir -p data/raw
    python -m venv .venv
    source .venv/bin/activate
    pip install -r requirements.txt
